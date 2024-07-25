@@ -20,11 +20,11 @@ Java_com_example_myapplication_MainActivity_getIpAddress(
         if (!ifa->ifa_addr) {
             continue;
         }
-        if (ifa->ifa_addr->sa_family == AF_INET) { // Check it is IP4
+        if (ifa->ifa_addr->sa_family == AF_INET) {
             tmpAddrPtr = &((struct sockaddr_in *) ifa->ifa_addr)->sin_addr;
             char addressBuffer[INET_ADDRSTRLEN];
             inet_ntop(AF_INET, tmpAddrPtr, addressBuffer, INET_ADDRSTRLEN);
-            if (strcmp(ifa->ifa_name, "lo") != 0) { // Skip loopback interface
+            if (strcmp(ifa->ifa_name, "lo") != 0) {
                 ipAddress = addressBuffer;
                 break;
             }

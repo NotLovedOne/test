@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
         resultTextView = findViewById(R.id.result_text_view);
         resultIcon = findViewById(R.id.result_icon);
 
-        // Example of a call to a native method
         Button fetchIpButton = findViewById(R.id.fetch_ip_button);
         fetchIpButton.setOnClickListener(new View.OnClickListener() {
             @Override
