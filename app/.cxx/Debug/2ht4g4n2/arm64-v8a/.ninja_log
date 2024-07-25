@@ -1,0 +1,5 @@
+# ninja log v5
+1	1064	7435880527358033	CMakeFiles/myapplication.dir/native-lib.cpp.o	3825a41c3bb4e8be
+1070	1194	7435880528669857	C:/Users/fisto/AndroidStudioProjects/MyApplication4/app/build/intermediates/cxx/Debug/2ht4g4n2/obj/arm64-v8a/libmyapplication.so	42035518668a0601
+6	1093	7435888787537324	CMakeFiles/myapplication.dir/native-lib.cpp.o	3825a41c3bb4e8be
+1094	1234	7435888789004840	C:/Users/fisto/AndroidStudioProjects/MyApplication4/app/build/intermediates/cxx/Debug/2ht4g4n2/obj/arm64-v8a/libmyapplication.so	42035518668a0601

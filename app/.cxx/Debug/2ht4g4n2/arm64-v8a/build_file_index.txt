@@ -1,0 +1,1 @@
+C:\Users\fisto\AndroidStudioProjects\MyApplication4\app\src\main\cpp\CMakeLists.txt
