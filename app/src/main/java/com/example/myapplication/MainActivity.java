@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Boolean result) {
             super.onPostExecute(result);
-            progressBar.setVisibility(View.VISIBLE);
+            progressBar.setVisibility(View.GONE);
             resultTextView.setVisibility(View.VISIBLE);
             resultIcon.setVisibility(View.VISIBLE);
 
